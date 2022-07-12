@@ -4,7 +4,7 @@ const { response } = require('express')
 const express=require('express')
 const app=express()
 const MongoClient=require('mongodb').MongoClient
-const PORT=8005
+const PORT=3000
 require('dotenv').config()
 //MongoClient.connect(connectionStr,  {useUnifiedTopology:true, useNewUrlParser: true})
 //Connect to Mongo
